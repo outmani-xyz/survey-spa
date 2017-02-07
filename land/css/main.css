@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'apro';
+    src:url("../fonts/AlternateGothicStdNo2.ttf");
+}
+@font-face{
+    font-family: 'Georgia';
+    src:url("../fonts/Georgia.ttf");
+} 
+body{
+    color:#fff;
+}
+.checkbox{
+    display:initial;
+    font-family: "Georgia";
+}
+h2{
+    font-family: 'apro';
+}
+h4{
+    font-family: 'Georgia';
+}
+@media(min-width:650px){
+    .container{
+        max-width: 650px;
+    }
+}
+.container{
+    background: #80605a;
+}
+textarea.form-control{
+    height:80px;
+    border-radius: 0;
+}
+input.form-control{
+    text-align: center;
+    background: #f6efed;
+    height: 30px;
+    border-radius: 0px;
+}
+.bigimg{
+    background: url('../img/women.jpg') #b9997e;
+    background-size: 125% 100%;
+    min-height: 260px;
+}
+.bigp{
+    background: #b9997e;
+    height: 260px;
+    color: #422112;
+    font-size: 20px;
+    font-family: "Georgia";
+    padding: 20% 10%;
+    /* line-height: 200%; */
+    text-align: center;
+    font-style: italic;
+}
+.sm-xs-p{
+    background: #b9997e;
+}
+.sm-xs-p p{
+    text-align: center;
+    padding: 20px 5px;
+    color: #422112;
+    font-size: 20px;
+    font-family: "Georgia"; 
+}
+.p{
+
+    color: #422112;
+    font-size: 20px;
+    font-family: "Georgia";
+    line-height: 150%
+}
+.btn-flt:hover{
+    background:#422112;color: #b9997e;
+}
+.btn-flt{
+    background: #b9997e;
+    color:#422112;
+    border:none;
+    font-family: "Georgia";
+    box-shadow: 1px 2px 1px 1px #422112;
+    width: 120px;
+    font-size: 20px
+}
+
+.row-dwn{
+    background: #fff;
+}
+.col-dow{
+
+    padding: 50px; 
+    background-color: #80605a; 
+    border-radius: 0 0 100px 0; 
+
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.no-padding{
+    padding: 0;
+}
+.btn-square.active{
+    background:#fff !important;
+    color:#b9997e;
+}
+.btn-square{
+    border-radius: 50%;
+     margin-bottom: 10px; 
+    background: #b9997e;
+    color:#fff;
+    padding: 5px;
+    text-transform: uppercase;
+    height: 42px;
+    width: 42px;
+    line-height: 200%;
+    font-size: 18px;
+}
+input[name=autre].form-control,input[name=creneau].form-control{
+    background:white
+}
+.btn-checkbox{
+    background:#b9997e;
+    border-radius:50%;
+}
